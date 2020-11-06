@@ -18,6 +18,8 @@ public class Drivetrain extends SubsystemBase {
     public void setDutyCycles(double leftDutyCycle, double rightDutyCycle) {
         leftWheels.set(leftDutyCycle);
         rightWheels.set(rightDutyCycle);
+
+        System.out.println("");
     }
 
 }
